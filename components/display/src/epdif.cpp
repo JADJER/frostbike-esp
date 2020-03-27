@@ -29,10 +29,10 @@
 #include <SPI.h>
 
 EpdIf::EpdIf() {
-};
+}
 
 EpdIf::~EpdIf() {
-};
+}
 
 void EpdIf::DigitalWrite(int pin, int value) {
     digitalWrite(pin, value);
